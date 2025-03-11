@@ -34,7 +34,7 @@ plot_predictions(mod2, condition = c("Year", "Treatment"))
 
 #Intercept is slope - Estimate: The change associated with year
 
-# There was a nearly significant effect of year on the amount of seedlings beneath parasitized trees and unparasitized trees. This variation does not seem to have an impact on our model but since it is nearly significant could prompt us to include more variables to better explain the variation that we do see. 
+# There was a nearly significant effect of year on the amount of seedlings beneath parasitized trees and unparasitized trees. This variation does not seem to have an impact on our model but since it is nearly significant this could prompt us to include more variables to better explain the variation that we do see. 
 
 ## Question 2:
 treemortality <- read.csv("treemortality.csv")
@@ -55,6 +55,7 @@ roc <- roc(treemortality$mortality
 
 ## 2b)
 #No they shouldn't need to incorporate tree size because of their additional sampling that randomized the likelihood of sampling small and large stems should remove the potential confounding effect that tree size had.  
+
 
 ## 2c) 
 
